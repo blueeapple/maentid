@@ -1,0 +1,459 @@
+html{
+
+    position:relative;
+}
+
+body{
+margin-top:0px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    height:300px;
+    background-image: url(../asset/1.png);
+    background-size:cover;
+
+}
+
+.celebrate{
+    margin-top:-150px;
+    margin-left:90px;
+}
+
+.lead{
+    margin-top:50%;
+    margin-left:100px;
+}
+
+/* End Jumbotron */
+
+
+/* Section About */
+section.about{
+    margin-top:-33px;
+    min-height:1780px;
+    background-color:#32b491;
+}
+
+
+section .about-img-1{
+    margin-left:-200px;
+    height:300px;
+}
+section .about-img-2{
+    height:300px;
+    margin-top:-218px;
+    margin-left:-22px;
+}
+
+
+.param{
+    margin-top:-180px;
+    font-family:sans-serif;
+    color:#ffffff;
+}
+
+/* end section About */
+
+/* HR */
+hr{
+    border-color:orange;
+}
+
+/* HR */
+
+/* Section Bio */
+.bio{
+    background-color:#dddddd;
+    min-height:1100px;
+}
+
+.lover{
+    
+    height:400px;
+    margin-left:20px;
+}
+
+.bio span   {
+    display:block;
+}
+
+
+.bio-man{
+    font-weight:bold;
+    text-align:right;
+    font-family:sans-serif;
+    font-size:35px;
+    color:#32b491;
+    text-shadow: 1px 1px 1px black;
+}
+.bio-woman{
+    margin-top:30px;
+    font-weight:bold;
+    text-align:left;
+    font-family:sans-serif;
+    font-size:30px;
+    color:#32b491;
+    text-shadow: 1px 1px 1px black;
+}
+
+.bio-span-man{
+    text-align:right;
+}
+
+.bio-ask{
+    font-family: sans-serif;
+    margin-right:15px;
+    font-size:15px;
+}
+
+.bio-answer{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right:15px;
+    font-size:15px;
+}
+.bio-love{
+    font-family:sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    margin-right:15px;
+}
+
+.bio-span-man{
+    border-width:0 10px 0 0 ;
+    border-style:solid;
+    text-align:right;
+    padding:0 0 60px 0;
+    border-image: linear-gradient(to bottom, #32b491, rgba(0, 0, 0, 0)) 1 100%;)
+}
+
+.bio-span-woman{
+    border-width:0 0 0 10px ;
+    border-style:solid;
+    text-align:right;
+    padding:0 0 60px 10px;
+    border-image: linear-gradient(to bottom, #32b491, rgba(0, 0, 0, 0)) 1 100%;)
+}
+
+
+/* End Section Bio */
+
+
+/* Section Venue */
+
+.venue-img{
+    width:400px;
+}
+
+.btn-map{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.text-venue{
+    font-size:30px;
+}
+/* End Section Venue */
+
+
+/* Section fotter Baris */
+.garis{
+    height:10px;
+    background-color:#3b3737;
+}
+/* Section Fotter baris */
+
+ /* Section Form Attending */
+ .form-wedding{
+    height:500px;
+    background-color:#32b491;
+}
+
+.text-attend{
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:30px;
+}
+
+.textarea{
+    height:200px;
+}
+
+.btn-confirm{
+    width:100%;
+}
+
+/* End Section Form Attending */
+
+/* Section Text Footer */
+
+.finds{
+    background-color:#eeeeee;
+    padding:10px;
+
+}
+
+.text-find{
+    font-size:20px;
+}
+
+.that{
+    color:#32b491;
+    font-weight: bold;
+    font-family:arial;
+}
+
+/* End Section text Footer  */
+
+/* Section Line Footer  */
+   .line{
+    
+    height:10px;
+    background-color:#3b3737;
+}
+/* Section Line Footer  */
+
+/* Section line */
+.footer-line{
+
+    padding:10px;
+    height:80px;
+    background-color:#eeeeee;
+}
+/* End Section Line */
+
+/* Footer Copyright */
+.footer-copyright{
+    
+    padding:10px;
+    height:80px;
+    background-color:#eeeeee;
+}
+
+.text-copy{
+    font-size:20px;
+    color:orange;
+    text-shadow:1px 1px 1px black;
+}
+/* End Foter Copyright */
+
+
+
+
+
+
+
+/* dekstop Version */
+@media (min-width: 992px) {
+    .jumbotron{
+        height:655px;
+        background-image: url(../asset/1.png);
+        background-size:cover;
+    }
+    .celebrate{
+        margin-top:20px;
+        margin-left:-5px;
+    }
+
+    .lead{
+        margin-top:500px;
+        margin-left:530px;
+    }
+
+
+    /* About */
+    section.about{
+        min-height:1450px;
+        background-color:#32b491;
+    }
+    
+    section .about-img-1{
+        height:800px;
+        margin-left:-30px;
+     
+    }
+    .param{
+        margin-top:-450px;
+        font-family:sans-serif;
+        color:#ffffff;
+        font-size:17px;
+    }
+    
+    hr{
+        border-color:orange;
+    }
+    section .about-img-2{
+        height:800px;
+        margin-top:-608px;
+    }
+    /* End Section ABout */
+
+
+
+
+    /* Section Bio */
+    .bio{
+        background-color:#dddddd;
+        min-height:600px;
+    }
+
+    .lover{
+        height:100%;
+        margin-left:20px;
+        padding-bottom:100px;
+    }
+   
+    .bio span   {
+        display:block;
+    }
+
+    .bio-man{
+        font-weight:bold;
+        text-align:right;
+        font-family:sans-serif;
+        font-size:50px;
+        color:#32b491;
+        text-shadow: 1px 1px 1px black;
+    }
+    .bio-woman{
+        margin-top:40px;
+        font-weight:bold;
+        text-align:left;
+        font-family:sans-serif;
+        font-size:35px;
+        color:#32b491;
+        text-shadow: 1px 1px 1px black;
+    }
+
+
+    .bio-span-man{
+        border-width:0 10px 0 0 ;
+        border-style:solid;
+        text-align:right;
+        padding:0 0 150px 0;
+        border-image: linear-gradient(to bottom, #32b491, rgba(0, 0, 0, 0)) 1 100%;)
+    }
+    
+    .bio-span-woman{
+        border-width:0 0 0 10px ;
+        border-style:solid;
+        text-align:right;
+        padding:0 0 150px 10px;
+        border-image: linear-gradient(to bottom, #32b491, rgba(0, 0, 0, 0)) 1 100%;)
+    }
+    
+    .bio-ask{
+        margin-right:10px;
+        font-family: sans-serif;
+        
+    }
+    
+    .bio-answer{
+        margin-right:10px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    .bio-love{
+        margin-right:10px;
+        font-family:sans-serif;
+        font-size:30px;
+        font-weight: bold;
+    }
+
+    /* End Section Bio */
+
+    /* Section Venue  */
+    .venue-line{
+        border-width:0 5px 0 0 ;
+        border-style:solid;
+        text-align:right;
+        padding:0 0 100px 0;
+        border-image: linear-gradient(to bottom, #554a4a, rgba(0, 0, 0, 0)) 1 100%;)
+
+    }
+
+    .venue-img{
+        width:500px;
+    }
+    .venue{
+        font-family:sans-serif;
+        color:#32b491;
+        margin-top:50px;
+    }
+
+    .btn-map{
+        margin-top:40px;
+    }
+
+
+    /* End Section Venue */
+
+    /* Section Form Attending */
+
+    .text-attend{
+        margin-top:15px;
+        margin-bottom:15px;
+        font-size:30px;
+    }
+    
+    .form-wedding{
+        height:430px;
+        background-color:#32b491;
+        padding-top:10px;
+        padding-bottom:20px;
+    }
+
+    .textarea{
+        height:200px;
+    }
+
+    .btn-confirm{
+        width:100%;
+    }
+
+    /* End Section Form Attending */
+
+
+
+    /* Section Text Fotter */
+    .text-find{
+        font-size:20px;
+    }
+
+    .that{
+        color:#32b491;
+        font-weight: bold;
+        font-family:arial;
+    }
+    .finds{
+        background-color:#eeeeee;
+        padding:10px;
+        height:50px;
+    }
+    /* End Section Text Footer */
+
+    /* Section Line Footer  */
+    .line{
+        height:10px;
+        background-color:#3b3737;
+    }
+    /* Section Line Footer  */
+
+    /* Section Footer Copyright */
+    .footer-copyright{
+    
+        padding:10px;
+        height:50px;
+        background-color:#eeeeee;
+    }
+
+    .text-copy{
+        font-size:20px;
+        color:orange;
+        text-shadow:1px 1px 1px black;
+    }
+     /* End Section Footer Copyright */
+
+}
